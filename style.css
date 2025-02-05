@@ -268,3 +268,15 @@ body {
     padding: 10px;
     border-radius: 0.5rem;
 }
+
+@media (max-width: 425px) {
+    #ToDoList-resume {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ToDoList-resume p {
+        width: 100%;
+        text-align: center;
+    }
+}
