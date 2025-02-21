@@ -21,10 +21,10 @@
                 <input type="text" id="input" placeholder="Add a new task...">
                 <button id="add">+</button>
             </div>
-            <p id="error">A task must be provided</p>
+            <p id="error" class="hidden">A task must be provided</p>
             <div id="ToDoList-tasks">
                 <ul id="list-tasks">
-                    <li>
+                    <li class="list-element">
                         <div class="task">
                             <button class="delete">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="list-element">
                         <div class="task">
                             <button class="delete">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
@@ -151,6 +151,7 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

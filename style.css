@@ -6,6 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* Estilos de texto */
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -180,7 +184,7 @@ body {
     border-radius: 1rem;
     display: inline-block;
     width: auto;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #ToDoList-tasks {
@@ -189,6 +193,7 @@ body {
 
 #list-tasks {
     list-style: none;
+    margin-top: 15px;
 }
 
 #list-tasks li {
